@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Facebook Audience Network</string>
+    <string name="facebook_app_id">970996696390468</string>
+    <string name="native_ad">Native Ad</string>
+    <string name="interstitial_ad">Interstitial Ad</string>
+    <string name="banner_ad">Banner Ad</string>
+</resources>
