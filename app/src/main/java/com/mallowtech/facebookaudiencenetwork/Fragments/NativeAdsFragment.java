@@ -60,7 +60,7 @@ public class NativeAdsFragment extends Fragment {
     }
 
     private void loadNativeAd() {
-        nativeAd = new NativeAd(getActivity(), "970996696390468_971033139720157");
+        nativeAd = new NativeAd(getActivity(), "YOUR_PLACEMENT_ID");
 
         nativeAd.setAdListener(new AdListener() {
             @Override public void onError(Ad ad, AdError adError) {

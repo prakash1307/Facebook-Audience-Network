@@ -49,7 +49,7 @@ public class InterstitialAdsFragment extends Fragment {
     }
 
     private void loadInterstitialAd() {
-        interstitialAd = new InterstitialAd(getActivity(), "970996696390468_970997669723704");
+        interstitialAd = new InterstitialAd(getActivity(), "YOUR_PLACEMENT_ID");
         interstitialAd.setAdListener(new InterstitialAdListener() {
             @Override public void onInterstitialDisplayed(Ad ad) {
                 Log.d(TAG, "onInterstitialDisplayed: ");
